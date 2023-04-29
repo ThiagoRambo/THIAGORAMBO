@@ -1,6 +1,6 @@
 <h1 align="center">Weight Controll</h1>
 
-### 🎲 Rodando o Back End (servidor)
+###  Rodando o Aplicativo
 
 ```bash
 # Clone este repositório
