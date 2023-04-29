@@ -40,6 +40,7 @@
     </div>
     <div class="col-sm-4">
       <h3>Placa</h3>
+      <p>{{$value}}</p>
     </div>
     <div class="col-sm-4">
       <h3>Motorista</h3>        

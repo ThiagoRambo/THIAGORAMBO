@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DetailsWeightController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/user', [DetailsWeightController::class,'index']);
+
+#Route::get('/DetalhesDePessagem', DetailsWeightController::class)->name('weightdetails');
+
