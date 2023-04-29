@@ -4,7 +4,7 @@
 
 ```bash
 # Clone este repositório
-git clone -branch master git://repositorioremoto.git
+git clone https://github.com/ThiagoRambo/THIAGORAMBO.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd THIAGORAMBO
