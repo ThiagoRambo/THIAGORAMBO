@@ -35,23 +35,35 @@
   
 <div class="container">
   <div class="row">
+
+
     <div class="col-sm-4">
       <h3>Tiket/Nota Fiscal</h3>
+      @foreach ($tikets as $tiket)
+        <p>{{$tiket}}</p>
+        @endforeach
     </div>
+
+
     <div class="col-sm-4">
-      <h3>Placa</h3>
+      <h3>Peso Liquido</h3>
+      @foreach ($weights as $weight)
+      <p>{{$weight}}</p>
+      @endforeach
     </div>
+
+
     <div class="col-sm-4">
-      <h3>Motorista</h3>        
+      <h3>Motorista</h3>  
+      @foreach ($drivers as $driver)
+      <p>{{$driver}}</p>     
+      @endforeach 
     </div>
+
+
   </div>
 </div>
-
 </body>
 </html>    
-
-
-
-
     </body>
 </html>
