@@ -2,6 +2,8 @@
 
 ###  Rodando o Aplicativo
 
+DEPENDENCIAS: DOCKER
+
 ```bash
 # Clone este repositório
 git clone https://github.com/ThiagoRambo/THIAGORAMBO.git
